@@ -1,0 +1,251 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Line = Instance.new("TextLabel")
+local Title_2 = Instance.new("TextLabel")
+local Line_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local Title_3 = Instance.new("TextLabel")
+local Line_3 = Instance.new("TextLabel")
+local Title_4 = Instance.new("TextLabel")
+local Line_4 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0218687877, 0, 0.211063832, 0)
+Frame.Size = UDim2.new(0, 563, 0, 718)
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0923623443, 0, 0, 0)
+Title.Size = UDim2.new(0, 458, 0, 62)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Crash V3"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Line.Name = "Line"
+Line.Parent = Frame
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line.BackgroundTransparency = 1.000
+Line.Position = UDim2.new(0, 0, 0.0974930376, 0)
+Line.Size = UDim2.new(0, 572, 0, 67)
+Line.Font = Enum.Font.SourceSans
+Line.Text = "------------------------------"
+Line.TextColor3 = Color3.fromRGB(0, 0, 0)
+Line.TextSize = 100.000
+Line.TextWrapped = true
+
+Title_2.Name = "Title"
+Title_2.Parent = Frame
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.Position = UDim2.new(0, 0, 0.171309188, 0)
+Title_2.Size = UDim2.new(0, 563, 0, 89)
+Title_2.Font = Enum.Font.SourceSans
+Title_2.Text = "If you ask how we make this new script you will be blacklisted from are discord and this roblox script."
+Title_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+Line_2.Name = "Line"
+Line_2.Parent = Frame
+Line_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_2.BackgroundTransparency = 1.000
+Line_2.Position = UDim2.new(-0.00888099428, 0, 0.270195007, 0)
+Line_2.Size = UDim2.new(0, 572, 0, 67)
+Line_2.Font = Enum.Font.SourceSans
+Line_2.Text = "------------------------------"
+Line_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Line_2.TextSize = 100.000
+Line_2.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(38, 0, 255)
+TextButton.Position = UDim2.new(0.0195381604, 0, 0.672702014, 0)
+TextButton.Size = UDim2.new(0, 170, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Small lag"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Title_3.Name = "Title"
+Title_3.Parent = Frame
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.Position = UDim2.new(-0.00177619897, 0, 0.34540391, 0)
+Title_3.Size = UDim2.new(0, 563, 0, 89)
+Title_3.Font = Enum.Font.SourceSans
+Title_3.Text = "891  members have been blacklisted today."
+Title_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title_3.TextScaled = true
+Title_3.TextSize = 14.000
+Title_3.TextWrapped = true
+
+Line_3.Name = "Line"
+Line_3.Parent = Frame
+Line_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_3.BackgroundTransparency = 1.000
+Line_3.Position = UDim2.new(-0.0106571931, 0, 0.426183879, 0)
+Line_3.Size = UDim2.new(0, 572, 0, 67)
+Line_3.Font = Enum.Font.SourceSans
+Line_3.Text = "------------------------------"
+Line_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Line_3.TextSize = 100.000
+Line_3.TextWrapped = true
+
+Title_4.Name = "Title"
+Title_4.Parent = Frame
+Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.BackgroundTransparency = 1.000
+Title_4.Position = UDim2.new(0, 0, 0.506963789, 0)
+Title_4.Size = UDim2.new(0, 563, 0, 89)
+Title_4.Font = Enum.Font.SourceSans
+Title_4.Text = "This is V3 of crash. Same stuff as V2 just works better"
+Title_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title_4.TextScaled = true
+Title_4.TextSize = 14.000
+Title_4.TextWrapped = true
+
+Line_4.Name = "Line"
+Line_4.Parent = Frame
+Line_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_4.BackgroundTransparency = 1.000
+Line_4.Position = UDim2.new(9.31322575e-10, 0, 0.58077997, 0)
+Line_4.Size = UDim2.new(0, 572, 0, 67)
+Line_4.Font = Enum.Font.SourceSans
+Line_4.Text = "------------------------------"
+Line_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Line_4.TextSize = 100.000
+Line_4.TextWrapped = true
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(38, 0, 255)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.357015967, 0, 0.672702014, 0)
+TextButton_2.Size = UDim2.new(0, 170, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Mass lag"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(38, 0, 255)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.678507984, 0, 0.672702014, 0)
+TextButton_3.Size = UDim2.new(0, 170, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Mega lag"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(38, 0, 255)
+TextButton_4.Position = UDim2.new(0.0195381604, 0, 0.764624, 0)
+TextButton_4.Size = UDim2.new(0, 170, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Mass crash [Freezes the game and makes unplay able]"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(38, 0, 255)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.357015967, 0, 0.764624, 0)
+TextButton_5.Size = UDim2.new(0, 170, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Mega crash"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(38, 0, 255)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.678507984, 0, 0.764624, 0)
+TextButton_6.Size = UDim2.new(0, 170, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Fast crash"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(38, 0, 255)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.678507984, 0, 0.764624, 0)
+TextButton_7.Size = UDim2.new(0, 170, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Fast crash"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(38, 0, 255)
+TextButton_8.Position = UDim2.new(0.0195381604, 0, 0.855153263, 0)
+TextButton_8.Size = UDim2.new(0, 170, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Sound crash [No radio needed]"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(38, 0, 255)
+TextButton_9.Position = UDim2.new(0.357015967, 0, 0.855153263, 0)
+TextButton_9.Size = UDim2.new(0, 170, 0, 50)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Sound that kills everyone V2 [No radio]"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+TextButton_10.Parent = Frame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(38, 0, 255)
+TextButton_10.Position = UDim2.new(0.678507984, 0, 0.855153263, 0)
+TextButton_10.Size = UDim2.new(0, 170, 0, 50)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Kick all sound V6"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
